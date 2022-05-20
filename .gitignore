@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/HotChocolateWithIdentity/DesignTimeBuild
+/.vs/HotChocolateWithIdentity/v16/.suo
