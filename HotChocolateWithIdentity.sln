@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolateWithIdentity.Domain", "src\HotChocolateWithIdentity.Domain\HotChocolateWithIdentity.Domain.csproj", "{DFDC8136-73BE-49AA-9F7B-4872FCA81FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolateWithIdentity.Domain", "src\HotChocolateWithIdentity.Domain\HotChocolateWithIdentity.Domain.csproj", "{DFDC8136-73BE-49AA-9F7B-4872FCA81FCB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{459BBA7F-E348-4AF7-B385-E59783FD9B4A}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolateWithIdentity.Application", "src\HotChocolateWithIdentity.Application\HotChocolateWithIdentity.Application.csproj", "{FC0EDCC3-4DCE-41B4-94E1-54A6BEE54D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotChocolateWithIdentity.Application", "src\HotChocolateWithIdentity.Application\HotChocolateWithIdentity.Application.csproj", "{FC0EDCC3-4DCE-41B4-94E1-54A6BEE54D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolateWithIdentity.Infrastructure", "src\HotChocolateWithIdentity.Infrastructure\HotChocolateWithIdentity.Infrastructure.csproj", "{4A727CFA-DD46-4741-A440-26D315EA45CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{FC0EDCC3-4DCE-41B4-94E1-54A6BEE54D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0EDCC3-4DCE-41B4-94E1-54A6BEE54D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0EDCC3-4DCE-41B4-94E1-54A6BEE54D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A727CFA-DD46-4741-A440-26D315EA45CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A727CFA-DD46-4741-A440-26D315EA45CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A727CFA-DD46-4741-A440-26D315EA45CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A727CFA-DD46-4741-A440-26D315EA45CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
